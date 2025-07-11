@@ -1,7 +1,15 @@
-# Hi there, I'm Erfan! 👋
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub+profile!;AI+%26+ML+Developer;Robotics+AI+Enthusiast;Building+the+future+with+LLMs;Always+creating+something+amazing!" alt="Typing SVG" />
+  <h1>
+    <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35"> 
+    Hey, I'm Erfan! 
+    <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif" width="35">
+  </h1>
+  
+  <h3>🤖 AI Robotics Engineer | 🧠 Building Tomorrow's Intelligence</h3>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+digital+profile!;AI+%26+Robotics+Developer;Creating+intelligent+MRL+robots;Bringing+Elon's+vision+to+life;Local+LLMs+%2B+Hardware+%3D+Magic!" alt="Typing SVG" />
+  
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
 ## 🚀 About Me
@@ -68,7 +76,11 @@
 -->
 
 <div align="center">
-  <h3>✨ Thanks for visiting my profile! ✨</h3>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  
+  <h3>✨ Thanks for visiting my digital workshop! ✨</h3>
   <p>🤖 Building intelligent robots with AI, one commit at a time</p>
   <p>💡 Always excited to collaborate on robotics and AI projects!</p>
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
 </div>
