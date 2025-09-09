@@ -9,7 +9,10 @@
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+digital+profile!;AI+%26+Robotics+Developer;Creating+intelligent+MRL+robots;Bringing+Elon's+vision+to+life;Local+LLMs+%2B+Hardware+%3D+Magic!" alt="Typing SVG" />
   
+  <!-- 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+-->
+---
 </div>
 
 ## 🚀 About Me
