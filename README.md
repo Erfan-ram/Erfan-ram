@@ -63,10 +63,22 @@
 
 </div>
 
-## 📈 Contribution Graph
+## 📈 Contribution Activity
 
 <div align="center">
-  <img src="./output/github_dark/contributions.svg" alt="Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./output/github_dark/contributions-heatmap.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./output/github/contributions-heatmap.svg" />
+    <img alt="Daily GitHub contribution heatmap" src="./output/github_dark/contributions-heatmap.svg" width="620" />
+  </picture>
+
+  <br><br>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Erfan-ram/Erfan-ram/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Erfan-ram/Erfan-ram/output/github-snake.svg" />
+    <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Erfan-ram/Erfan-ram/output/github-snake.svg" width="95%" />
+  </picture>
 </div>
 
 ---
