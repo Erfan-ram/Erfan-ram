@@ -66,7 +66,7 @@
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Erfan-ram&theme=react-dark&hide_border=true" alt="Contribution Graph" />
+  <img src="./output/github_dark/contributions.svg" alt="Contribution Graph" />
 </div>
 
 ---
