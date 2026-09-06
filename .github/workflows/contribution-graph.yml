@@ -1,4 +1,4 @@
-name: Update contribution graph
+name: Update contribution heatmap
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate contribution graph SVG
+      - name: Generate contribution SVG cards
         uses: tiennm99/ghstats@v1
         with:
           user: ${{ github.repository_owner }}
@@ -31,7 +31,7 @@ jobs:
           start_of_week: monday
           commit_changes: "false"
 
-      - name: Commit contribution graph
+      - name: Commit daily contribution heatmap
         shell: bash
         run: |
           set -euo pipefail
@@ -39,17 +39,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # ghstats generates several cards; the profile only needs this graph.
-          git add -f output/github_dark/contributions.svg
+          # Keep the calendar-style daily heatmap in the profile repository.
+          git add -f output/github_dark/contributions-heatmap.svg
 
           if git diff --cached --quiet; then
-            echo "Contribution graph is already up to date."
+            echo "Contribution heatmap is already up to date."
             exit 0
           fi
 
-          git commit -m "chore: refresh contribution graph"
-
-          # Rebase onto the newest main before pushing. This avoids the
-          # non-fast-forward race that broke the previous workflow run.
+          git commit -m "chore: refresh contribution heatmap"
           git pull --rebase origin main
           git push origin HEAD:main
