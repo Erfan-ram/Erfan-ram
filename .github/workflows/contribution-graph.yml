@@ -26,12 +26,12 @@ jobs:
         uses: tiennm99/ghstats@v1
         with:
           user: ${{ github.repository_owner }}
-          themes: github_dark
+          themes: github_dark,github
           include_private: "false"
           start_of_week: monday
           commit_changes: "false"
 
-      - name: Commit daily contribution heatmap
+      - name: Commit daily contribution heatmaps
         shell: bash
         run: |
           set -euo pipefail
@@ -39,15 +39,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Keep only the calendar-style daily heatmap from ghstats.
-          git add -f output/github_dark/contributions-heatmap.svg
+          # Keep only the calendar-style daily heatmaps from ghstats.
+          git add -f \
+            output/github_dark/contributions-heatmap.svg \
+            output/github/contributions-heatmap.svg
 
           if git diff --cached --quiet; then
-            echo "Contribution heatmap is already up to date."
+            echo "Contribution heatmaps are already up to date."
             exit 0
           fi
 
-          git commit -m "chore: refresh contribution heatmap"
+          git commit -m "chore: refresh contribution heatmaps"
 
           # ghstats also generates other cards. Discard those uncommitted files
           # before rebasing so they cannot block git pull --rebase.
