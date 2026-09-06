@@ -19,14 +19,37 @@ jobs:
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - name: Generate contribution graph SVGs
+      - name: Generate contribution graph SVG
         uses: tiennm99/ghstats@v1
         with:
           user: ${{ github.repository_owner }}
           themes: github_dark
           include_private: "false"
           start_of_week: monday
-          commit_changes: "true"
-          commit_branch: main
-          commit_message: "chore: refresh contribution graph"
+          commit_changes: "false"
+
+      - name: Commit contribution graph
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # ghstats generates several cards; the profile only needs this graph.
+          git add -f output/github_dark/contributions.svg
+
+          if git diff --cached --quiet; then
+            echo "Contribution graph is already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh contribution graph"
+
+          # Rebase onto the newest main before pushing. This avoids the
+          # non-fast-forward race that broke the previous workflow run.
+          git pull --rebase origin main
+          git push origin HEAD:main
