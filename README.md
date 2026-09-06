@@ -7,7 +7,7 @@
   
   <h3>🤖 AI Robotics Engineer | 👁️ Computer Vision & Production ML Systems</h3>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+%26+Robotics+Developer;Production+Computer+Vision+Engineer;GPU+Face+Recognition+%2B+Vector+Search;Offline+AI+%2B+Docker+%2B+CUDA;Building+Crash-Recoverable+ML+Systems;Local+LLMs+%2B+Hardware+%3D+Intelligence" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+%26+Robotics+Developer;Production+Computer+Vision+Engineer;Million-Scale+Visual+Detection;GPU+Face+Recognition+%2B+Vector+Search;Offline+AI+%2B+Docker+%2B+CUDA;Building+AI+That+Survives+the+Real+World" alt="Typing SVG" />
   
   <!-- 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -17,16 +17,13 @@
 
 ## 🚀 About Me
 
-- 🔭 I'm currently working on **AI agents, RAG systems with OpenAI, and local LLM models**
-- 👁️ I build **production-grade computer vision systems**, including a local/offline face-recognition platform with **InsightFace / ArcFace, FAISS vector search, SQLite metadata, PySide6, ONNX Runtime, and NVIDIA GPU inference**
-- ⚙️ I designed a **durable ML training pipeline** with streaming dataset discovery, DINO-based duplicate analysis, sealed recovery chunks, crash-resumable jobs, immutable FAISS generations, and atomic SQLite publication so partially built indexes never become visible to recognition
-- 🐳 I engineered a **source-free Docker production runtime** with pinned Nuitka builds, offline model images, NVIDIA GPU support, persistent application data, and secure Linux desktop integration through **XDG Desktop Portal**
-- 🔐 I built an **offline asymmetric licensing and quota system** plus a private **Release Center** for signed licenses, release validation, immutable image packaging, checksums, and customer-ready offline deployments
-- 🎯 I also work on **real-time recognition/monitoring**, keeping recognition, licensing, vector indexes, and recovery state consistent across long-running production workflows
-- 🌱 I'm currently exploring **Whisper transcription models for LLM real-time input on MRL robots**
-- 🤖 I love building **mini Optimus robots inspired by Elon Musk's humanoid robots**
-- 🚀 **My goal**: Combine local LLMs, perception, robotics, and production-grade AI infrastructure to give MRL robots persistent identity and useful intelligence
-- 💬 Ask me about **AI, Robotics, Computer Vision, Deep Learning, RAG, LLM integration, GPU inference, vector search, Dockerized ML, or production AI systems**
+- 🔭 Most of my work sits where **AI meets real systems** — I enjoy taking an idea beyond a notebook and turning it into something fast, reliable, and actually usable.
+- 👁️ One of the projects I'm most proud of is a **production-grade face recognition platform** built around **InsightFace / ArcFace, FAISS, SQLite, ONNX Runtime, PySide6, and NVIDIA GPUs**. It runs fully offline and was designed with real deployment constraints in mind.
+- ⚙️ Building it also pushed me into the parts of AI engineering that don't always show up in demos: **resumable training, crash recovery, immutable indexes, safe publishing, Docker/Nuitka packaging, licensing, release tooling, and Linux desktop integration**.
+- 🌱 Right now I'm focused on **large-scale unsupervised visual detection and recognition** — building training and detection pipelines that can work across **millions of images** while keeping accuracy high and the system practical at that scale.
+- 🤖 I'm also fascinated by robotics and local AI. I like the idea of combining **perception, local LLMs, and hardware** to give robots a persistent sense of identity and context.
+- 🚀 **My goal** is simple: build AI systems that are not only smart in a demo, but dependable enough to live in the real world.
+- 💬 Ask me about **AI, Robotics, Computer Vision, Deep Learning, RAG, LLMs, GPU inference, vector search, Dockerized ML, or production AI systems**.
 
 ## 🛠️ Technologies & Tools
 
@@ -124,8 +121,8 @@
   -->
   
   <h3>✨ Thanks for visiting! ✨</h3>
-  <p>🤖 Building intelligent robots and production AI systems, one commit at a time</p>
-  <p>💡 Always excited to collaborate on robotics, computer vision, and AI engineering projects!</p>
+  <p>🤖 I like building AI that survives outside the demo.</p>
+  <p>💡 Always open to interesting work in robotics, vision, and large-scale AI systems.</p>
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
 </div>
