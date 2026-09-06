@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Keep the calendar-style daily heatmap in the profile repository.
+          # Keep only the calendar-style daily heatmap from ghstats.
           git add -f output/github_dark/contributions-heatmap.svg
 
           if git diff --cached --quiet; then
@@ -48,5 +48,11 @@ jobs:
           fi
 
           git commit -m "chore: refresh contribution heatmap"
+
+          # ghstats also generates other cards. Discard those uncommitted files
+          # before rebasing so they cannot block git pull --rebase.
+          git reset --hard HEAD
+          git clean -fd
+
           git pull --rebase origin main
           git push origin HEAD:main
