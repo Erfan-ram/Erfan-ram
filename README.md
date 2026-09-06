@@ -5,9 +5,9 @@
     <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif" width="35">
   </h1>
   
-  <h3>🤖 AI Robotics Engineer | 🧠 Building Tomorrow's Intelligence</h3>
+  <h3>🤖 AI Robotics Engineer | 👁️ Computer Vision & Production ML Systems</h3>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+digital+profile!;AI+%26+Robotics+Developer;Creating+intelligent+MRL+robots;Bringing+Elon's+vision+to+life;Local+LLMs+%2B+Hardware+%3D+Magic!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+%26+Robotics+Developer;Production+Computer+Vision+Engineer;GPU+Face+Recognition+%2B+Vector+Search;Offline+AI+%2B+Docker+%2B+CUDA;Building+Crash-Recoverable+ML+Systems;Local+LLMs+%2B+Hardware+%3D+Intelligence" alt="Typing SVG" />
   
   <!-- 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -18,11 +18,15 @@
 ## 🚀 About Me
 
 - 🔭 I'm currently working on **AI agents, RAG systems with OpenAI, and local LLM models**
+- 👁️ I build **production-grade computer vision systems**, including a local/offline face-recognition platform with **InsightFace / ArcFace, FAISS vector search, SQLite metadata, PySide6, ONNX Runtime, and NVIDIA GPU inference**
+- ⚙️ I designed a **durable ML training pipeline** with streaming dataset discovery, DINO-based duplicate analysis, sealed recovery chunks, crash-resumable jobs, immutable FAISS generations, and atomic SQLite publication so partially built indexes never become visible to recognition
+- 🐳 I engineered a **source-free Docker production runtime** with pinned Nuitka builds, offline model images, NVIDIA GPU support, persistent application data, and secure Linux desktop integration through **XDG Desktop Portal**
+- 🔐 I built an **offline asymmetric licensing and quota system** plus a private **Release Center** for signed licenses, release validation, immutable image packaging, checksums, and customer-ready offline deployments
+- 🎯 I also work on **real-time recognition/monitoring**, keeping recognition, licensing, vector indexes, and recovery state consistent across long-running production workflows
 - 🌱 I'm currently exploring **Whisper transcription models for LLM real-time input on MRL robots**
 - 🤖 I love building **mini Optimus robots inspired by Elon Musk's humanoid robots**
-- 👁️ I also build **production-grade computer vision and face recognition systems** with GPU inference, vector search, desktop GUIs, Dockerized deployment, and offline model runtimes
-- 🎯 **My goal**: Use local LLM models to give identity and intelligence to MRL robots, just like Elon Musk's vision
-- 💬 Ask me about **AI, Robotics, Computer Vision, Deep Learning, LLM integration, GPU inference, or production ML systems**
+- 🚀 **My goal**: Combine local LLMs, perception, robotics, and production-grade AI infrastructure to give MRL robots persistent identity and useful intelligence
+- 💬 Ask me about **AI, Robotics, Computer Vision, Deep Learning, RAG, LLM integration, GPU inference, vector search, Dockerized ML, or production AI systems**
 
 ## 🛠️ Technologies & Tools
 
@@ -120,8 +124,8 @@
   -->
   
   <h3>✨ Thanks for visiting! ✨</h3>
-  <p>🤖 Building intelligent robots with AI, one commit at a time</p>
-  <p>💡 Always excited to collaborate on robotics and AI projects!</p>
+  <p>🤖 Building intelligent robots and production AI systems, one commit at a time</p>
+  <p>💡 Always excited to collaborate on robotics, computer vision, and AI engineering projects!</p>
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
 </div>
