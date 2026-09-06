@@ -1,0 +1,32 @@
+name: Update contribution graph
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/contribution-graph.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate contribution graph SVGs
+        uses: tiennm99/ghstats@v1
+        with:
+          user: ${{ github.repository_owner }}
+          themes: github_dark
+          include_private: "false"
+          start_of_week: monday
+          commit_changes: "true"
+          commit_branch: main
+          commit_message: "chore: refresh contribution graph"
