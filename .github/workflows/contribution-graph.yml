@@ -51,10 +51,9 @@ jobs:
 
           git commit -m "chore: refresh contribution heatmaps"
 
-          # ghstats also generates other cards. Discard those uncommitted files
-          # before rebasing so they cannot block git pull --rebase.
+          # ghstats also rewrites tracked generated cards. Reset those working-tree
+          # changes before rebasing; untracked generated cards do not block rebase.
           git reset --hard HEAD
-          git clean -fd
 
           git pull --rebase origin main
           git push origin HEAD:main
